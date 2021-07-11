@@ -1,0 +1,27 @@
+    {
+      "name": "com.bonjour-lab.webcam",
+      "displayName": "Bonjour Lab - UVC Camera grabber",
+      "version": "1.0.0",
+      "unity": "2019.3",
+      "description": "UVC Camera grabber is a simple camera/webcam grabber utility for your projects.",
+      "keywords": [
+            "camera",
+            "utility",
+            "unity",
+            "bonjourlab"
+        ],
+      "homepage": "https://www.bonjour-lab.com/",
+      "bugs": {
+        "url": "https://github.com/Bonjour-Interactive-Lab/Unity3D-Camera/issues"
+       },
+      "repository": {
+         "type": "git",
+         "url": "https://github.com/Bonjour-Interactive-Lab/Unity3D-Camera.git"
+      },
+      "license": "MIT",
+      "author": {
+             "name": "bonjour lab",
+             "email": "alex@bonjour-lab.com",
+             "url": "https://www.bonjour-lab.com/"
+       }
+    }
