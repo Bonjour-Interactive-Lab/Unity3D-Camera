@@ -1,9 +1,10 @@
 using UnityEditor;
 using UnityEngine;
+using Bonjour.Webcam;
 
 namespace Bonjour.Webcam
 {
-    [CustomEditor(typeof(WebcamInput))]
+    [CustomEditor(typeof(Bonjour.Webcam.WebcamInput))]
     sealed class WebcamInputEditor : Editor
     {
         static readonly GUIContent SelectLabel = new GUIContent("Select");
