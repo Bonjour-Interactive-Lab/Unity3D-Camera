@@ -23,8 +23,8 @@ To the scopedRegistries section:
 
 To the dependencies section:
 
-``` "com.bonjour-lab.uvccamera": "1.0.0",```
-
+```"com.bonjour-lab.uvccamera": "1.0.0",
+```
 After changes, the manifest file should look like below:
 ```
 {
