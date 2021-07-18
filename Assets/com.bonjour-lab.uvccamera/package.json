@@ -1,7 +1,7 @@
     {
       "name": "com.bonjour-lab.uvccamera",
       "displayName": "Bonjour Lab - UVC Camera grabber",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "unity": "2019.3",
       "description": "UVC Camera grabber is a simple camera/webcam grabber utility for your projects.",
       "keywords": [

@@ -4,15 +4,15 @@ namespace Bonjour.Webcam
 {
     public sealed class WebcamInput : MonoBehaviour
     {
-        [SerializeField][Tooltip("Camera name")] string deviceName = "";
-        [SerializeField][Tooltip("Camera resolution")] Vector2Int resolution = new Vector2Int(1920, 1080);
-        [SerializeField][Tooltip("Camera frame rate")] int frameRate = 30;
+        [SerializeField][Tooltip("Camera name")]        public string deviceName = "";
+        [SerializeField][Tooltip("Camera resolution")]  public Vector2Int resolution = new Vector2Int(1920, 1080);
+        [SerializeField][Tooltip("Camera frame rate")]  public int frameRate = 30;
 
         WebCamTexture webcam;
         [SerializeField][Tooltip("Target texture to render on")] public RenderTexture targetBuffer;
-        [SerializeField][Tooltip("Clamp game to camera FPS (usefull is uyou want to perform image computation)")] bool clampFPSToCameraFPS;
-        [SerializeField][Tooltip("Horizontal mirror")] bool horMirror;
-        [SerializeField][Tooltip("Vertical mirror")] bool vertMirror;
+        [SerializeField][Tooltip("Clamp game to camera FPS (usefull is uyou want to perform image computation)")] public bool clampFPSToCameraFPS;
+        [SerializeField][Tooltip("Horizontal mirror")] public bool horMirror;
+        [SerializeField][Tooltip("Vertical mirror")] public bool vertMirror;
 
         private struct ScaleOffset{
             public Vector2 scale;
